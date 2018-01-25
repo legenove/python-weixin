@@ -9,6 +9,7 @@ ALLOWED_MSG_TYPES = set(['text', 'image', 'voice', 'video',
                          'shortvideo', 'location', 'link'])
 ALLOWED_EVENTS = set(['subscribe', 'unsubscribe', 'unsub_scan',
                       'scan', 'click', 'location', 'view',
+                      'user_enter_tempsession',
                       'templatesendjobfinish'])
 
 
